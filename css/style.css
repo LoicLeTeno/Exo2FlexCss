@@ -3,32 +3,42 @@
     flex-wrap: wrap;
 }
 
-section>div>div {
-    background-color: chocolate;
-
+div {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 100px;
+    height: 150px;
 
-    margin: auto;
-    margin-top: 5px;
-    
+    margin: 5px;
 }
 
 .flex-item-1{
+    display: flex;
+
     width: 100%;
 }
 
 .flex-item-2 {
-    width: 49%;
+    display: flex;
+
+    width: 100%;
 }
 
 .flex-item-3 {
-    width: 33%;
+    display: flex;
+
+    width: 100%;
 }
 
 .flex-item-12 {
-    width: 6%;
+    display: flex;
+
+    width: 100%;
+}
+
+.box {
+    background-color: chocolate;
+
+    width: 100%;
 }
